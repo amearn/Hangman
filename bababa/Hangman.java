@@ -114,12 +114,12 @@ class HiddenKeyword {
                 String s = new String(positions);
                 System.out.print(s);
                 gword = new StringBuffer(s);
-                tfLetter.setText("");
+//                tfLetter.setText("");
   
                 // Delete the messages
                 message="";
                 information = "";
-                repaint();
+//                repaint();
                 
     
     
