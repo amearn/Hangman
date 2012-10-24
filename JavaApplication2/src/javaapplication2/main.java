@@ -538,8 +538,7 @@ private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIR
 }//GEN-LAST:event_jButton27ActionPerformed
 
 private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
- jButton28.setActionCommand("disable");
-            jButton28.setEnabled(false);
+
 }//GEN-LAST:event_jButton28ActionPerformed
 
     /**
