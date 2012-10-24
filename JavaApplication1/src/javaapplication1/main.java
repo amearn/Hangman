@@ -353,6 +353,7 @@ public class main extends javax.swing.JFrame {
 
             public void run() {
                 new main().setVisible(true);
+                
             }
         });
     }
