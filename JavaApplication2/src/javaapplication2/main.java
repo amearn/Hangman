@@ -432,23 +432,23 @@ public class main extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
 private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
- jButton8.setActionCommand("disable");
+            jButton8.setActionCommand("disable");
             jButton8.setEnabled(false);
            
 }//GEN-LAST:event_jButton8ActionPerformed
 
 private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
- jButton7.setActionCommand("disable");
+            jButton7.setActionCommand("disable");
             jButton7.setEnabled(false);
 }//GEN-LAST:event_jButton7ActionPerformed
 
 private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
- jButton6.setActionCommand("disable");
+            jButton6.setActionCommand("disable");
             jButton6.setEnabled(false);
 }//GEN-LAST:event_jButton6ActionPerformed
 
 private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
- jButton5.setActionCommand("disable");
+            jButton5.setActionCommand("disable");
             jButton5.setEnabled(false);
 }//GEN-LAST:event_jButton5ActionPerformed
 
