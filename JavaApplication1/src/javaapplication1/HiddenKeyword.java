@@ -30,7 +30,7 @@ public class HiddenKeyword {
         /*
          * Enter the wordslist, separated by a | here:
          */
-        String str = "computer|radio|calculator|teacher|bureau|police|geometry|president|subject|country|enviroment|classroom|animals|province|month|politics|puzzle|instrument|kitchen|language|vampire|ghost|solution|service|software|virus25|security|phonenumber|expert|website|agreement|support|compatibility|advanced|search|triathlon|immediately|encyclopedia|endurance|distance|nature|history|organization|international|championship|government|popularity|thousand|feature|wetsuit|fitness|legendary|variation|equal|approximately|segment|priority|physics|branche|science|mathematics|lightning|dispersion|accelerator|detector|terminology|design|operation|foundation|application|prediction|reference|measurement|concept|perspective|overview|position|airplane|symmetry|dimension|toxic|algebra|illustration|classic|verification|citation|unusual|resource|analysis|license|comedy|screenplay|production|release|emphasis|director|trademark|vehicle|aircraft|experiment";
+        String str = "dark|water|watermelon|country|cat|rule|papaya|big|yellow|law|orange|small|pen|knife|option|hair|computer|spoon|keyboard|hard|notebook|life|box|black|paper|fork|show|dream|phone|change|done|sexy|mouse|chair|blue|rice|body|scissors|telephone|milk|moon|ball|call|friut|soap|medicine|red|cold|flower|engineer|work|summer|pink|food|clock|rain|environment|drink|green|warm|science|apple|tree|hospital|air|banana|school|game|shoe|internet|univercity|picture|fire|city";
         String[] temp;
 
         /*
@@ -67,8 +67,8 @@ public class HiddenKeyword {
     }
     
     public boolean found() {
-        System.out.println("Letters found:" + lfoundNumber + "/" + getRword().length());
-        return (lfoundNumber == getRword().length());
+        System.out.println("Letters found:" + lfoundNumber/2 + "/" + getRword().length());
+        return (lfoundNumber/2 == getRword().length());
     }
 
     public boolean guess(char c) {

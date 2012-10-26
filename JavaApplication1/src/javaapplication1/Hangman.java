@@ -22,7 +22,7 @@ class HangmanSession {
   
   private HiddenKeyword hiddenKeyword;
   private LetterBox letterBox;
-  private int triesNumber = 7;
+  public int triesNumber = 7;
 
   public HangmanSession() {
     player = new Player();

@@ -79,6 +79,26 @@ public class HiddenKeywordTest {
         HiddenKeyword h = new HiddenKeyword();
         h.rword = "cat";
         h.guess('c');
+    
+        h.guess('a');
+        h.guess('t');
+        assertEquals(true, h.found());
+    }
+     public void testFound2() {
+        HiddenKeyword h = new HiddenKeyword();
+        h.rword = "cat";
+        h.guess('c');
+        h.guess('m');
+        h.guess('a');
+        h.guess('t');
+        assertEquals(true, h.found());
+     }
+        public void testFound3() {
+        HiddenKeyword h = new HiddenKeyword();
+        h.rword = "cat";
+        h.guess('c');
+        h.guess('m');
+        h.guess('n');
         h.guess('a');
         h.guess('t');
         assertEquals(true, h.found());
@@ -93,4 +113,5 @@ public class HiddenKeywordTest {
         assertEquals("ca-", h.toString());
     }
     
+//   public 
 }

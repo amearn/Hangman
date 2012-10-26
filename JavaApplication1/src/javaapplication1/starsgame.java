@@ -3,11 +3,7 @@
  * and open the template in the editor.
  */
 package javaapplication1;
-
-/**
- *
- * @author like
- */
+import javaapplication1.main;
 public class starsgame extends javax.swing.JFrame {
 
     /**
@@ -15,6 +11,7 @@ public class starsgame extends javax.swing.JFrame {
      */
     public starsgame() {
         initComponents();
+        
     }
 
     /**
@@ -30,7 +27,7 @@ public class starsgame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usre\\Documents\\GitHub\\Hangman\\JavaApplication1\\src\\javaapplication1\\myimageapp\\hangman.jpg")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator.GoD-PC\\Documents\\JavaApplication1\\src\\javaapplication1\\myimageapp\\hangman.jpg")); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -41,18 +38,25 @@ public class starsgame extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 634, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 634, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton1)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 474, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 11, Short.MAX_VALUE))
         );
 
-        pack();
+        java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
+        setBounds((screenSize.width-644)/2, (screenSize.height-517)/2, 644, 517);
     }// </editor-fold>//GEN-END:initComponents
 
 private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-// TODO add your handling code here:
+ new main().show();
+    this.setVisible(false);
+   
 }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
